@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9aabc6d3-af2c-49b6-b96f-bdf079d80ccb</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Youtube_Bot.py</StartupFile>
+    <StartupFile>Fiddling-With-PRAW.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Fiddling-With-PRAW.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Youtube_Bot.py" />
   </ItemGroup>
   <ItemGroup>
